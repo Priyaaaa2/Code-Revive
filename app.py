@@ -358,6 +358,7 @@ def construct_prompt_forTest(response_test_case, response_convert):
     prompt += f"Converted code: {response_convert}\n"
     prompt += f"Test case: {response_test_case}\n"
     prompt += "Only one word response of the marks out of 10. and its keyword be 'accuracy'"
+    prompt += r"{'accuracy':marks} <- in this format"
     return prompt
 
 def analyze_groq_response_JSON(response, subHead):
