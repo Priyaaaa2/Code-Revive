@@ -249,7 +249,7 @@ def analyze_codebase_with_llama(json_data, code_contents, desired_code):
     
     analyze_groq_response(response_doc, 'Technical Documentation')
     #analyze_groq_response_JSON(response_testResult, 'Test result')
-    st.write(f"{acc_str}")
+    st.subheader(f"{acc_str}")
     analyze_groq_response(response_convert, 'Codes Converted')
 
     #extract_json_from_response(getContent(response_convert))
