@@ -21,8 +21,8 @@ To set up Code Revive locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/code-revive.git
-   cd code-revive
+   git clone https://github.com/wepandas4/Code-Revive.git
+   cd Code-Revive
    ```
 
 2. Create a virtual environment:
