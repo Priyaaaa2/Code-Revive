@@ -19,24 +19,29 @@ Code Revive is an innovative application that enables developers to convert code
 
 To set up Code Revive locally, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository**
    ```bash
    git clone https://github.com/wepandas4/Code-Revive.git
    cd Code-Revive
    ```
 
-2. Create a virtual environment:
+2. **Create a virtual environment**
    ```bash
    python -m venv venv
    venv\Scripts\activate # On Linux use `source venv/bin/activate`
    ```
 
-3. Install the required packages:
+3. **Install the required packages**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the Streamlit app:
+4. **Replace Groq API**
+   ```bash
+    client = Groq(api_key='YOUR_API_KEY')
+   ```
+
+6. **Run the Streamlit app**
    ```bash
    streamlit run app.py
    ```
