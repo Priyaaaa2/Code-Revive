@@ -124,7 +124,7 @@ def extracting(zip_file_path):
 
 
 def getResponseAsJSON(prompt):
-    client = Groq(api_key='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')  # Replace 'YOUR_API_KEY' with your Groq API key
+    client = Groq(api_key='YOUR_API_KEY')  # Replace 'YOUR_API_KEY' with your Groq API key
 
     response = client.chat.completions.create(
         messages=[
@@ -143,7 +143,7 @@ def getResponseAsJSON(prompt):
     return response
 
 def getResponse(prompt):
-    client = Groq(api_key='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')  # Replace 'YOUR_API_KEY' with your Groq API key
+    client = Groq(api_key='YOUR_API_KEY')  # Replace 'YOUR_API_KEY' with your Groq API key
 
     response = client.chat.completions.create(
         messages=[
